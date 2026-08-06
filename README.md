@@ -22,7 +22,7 @@ live on https://bigweb.onrender.com
 - [About bigmanjtech™](#about-bigmanjtech)
 - [Our Products](#our-products)
 - [BIGST4CK – WhatsApp Bot](#bigst4ck--whatsapp-bot)
-- [BIGST4CK – Telegram Bot](#bigst4ck--telegram-bot)
+- [bigpannel – Telegram Bot](#bigpannelbot)
 - [Server Selling Plans](#server-selling-plans)
 - [Website](#website)
 - [Contact](#contact)
@@ -62,7 +62,7 @@ To be Africa's leading tech brand, empowering communities through innovation.
 | Product | Platform | Description |
 |---------|----------|-------------|
 | **BIGST4CK** | WhatsApp | AI-powered WhatsApp bot with downloaders, group management, and server selling |
-| **BIGST4CK** | Telegram | Server selling bot with Pterodactyl integration |
+| **bigpannnel** | Telegram | Server selling bot with Pterodactyl integration |
 | **BigWeb** | Website | Brand presence and customer portal |
 | **BigPanel** | Pterodactyl | Server management and deployment |
 
