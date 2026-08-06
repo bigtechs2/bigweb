@@ -2,16 +2,15 @@
 
 live on https://bigweb.onrender.com
 
-# 🖥️ bigweb 
+# 🚀 bigmanjtech™
 
-**Your Tech Hub – AI Bots · Server Hosting · Automation**
+**Building Tomorrow's Tech, Today**
 
 ![Version](https://img.shields.io/badge/version-1.0.0-grey)
 ![Node.js](https://img.shields.io/badge/Node.js-18+-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 [![Website](https://img.shields.io/badge/Website-Live-blue)](https://bigweb.onrender.com)
 [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-Group-25D366)](https://chat.whatsapp.com/EWlNm6bMYJCELwzvnmboyC)
-[![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red)](https://youtube.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Repos-181717)](https://github.com/bigtechs1)
 
 **Built with ♥︎ by bigmanjtech™**
@@ -20,12 +19,13 @@ live on https://bigweb.onrender.com
 
 ## 📌 Table of Contents
 
-- [About bigmanntech™](#about-bigst4ck)
-- [Features](#features)
+- [About bigmanjtech™](#about-bigmanjtech)
+- [Our Products](#our-products)
+- [BIGST4CK – WhatsApp Bot](#bigst4ck--whatsapp-bot)
+- [BIGST4CK – Telegram Bot](#bigst4ck--telegram-bot)
 - [Server Selling Plans](#server-selling-plans)
-- [WhatsApp Bot](#whatsapp-bot)
-- [Telegram Bot](#telegram-bot)
 - [Website](#website)
+- [Contact](#contact)
 - [Installation](#installation)
 - [Configuration](#configuration)
 - [Commands](#commands)
@@ -37,22 +37,42 @@ live on https://bigweb.onrender.com
 
 ---
 
-## 🎯 About BIGST4CK
+## 🎯 About bigmanjtech™
 
-**bigmanjtech™** is a complete tech team built by **bigtrchs1**. It combines:
+**bigmanjtech™** is a Tanzanian technology brand specializing in AI-powered WhatsApp bots, Telegram bots, automation tools, server hosting, and website development.
 
-- 🤖 **WhatsApp Bot** – AI chat, downloaders, group management, and server selling
-- 🖥️ **Telegram Bot** – Server hosting and automation
-- 🌐 **Website** – Brand presence and customer portal
-- 🏗️ **Pterodactyl Panel** – Server management and deployment
+Founded with a passion for innovation, we believe technology should be **accessible, affordable, and useful for everyone**.
 
-Our mission is to provide reliable, affordable, and automated server hosting solutions while offering a feature-packed digital assistant.
+### Our Mission
+Making technology accessible, affordable, and useful for everyone.
+
+### Our Vision
+To be Africa's leading tech brand, empowering communities through innovation.
+
+### Our Values
+- **Innovation** – Pushing boundaries with new ideas
+- **Simplicity** – Making tech easy for everyone
+- **Reliability** – Building trust through quality
+- **Community-Driven** – Growing together with our users
 
 ---
 
-## ✨ Features
+## 📦 Our Products
 
-### 🤖 WhatsApp Bot
+| Product | Platform | Description |
+|---------|----------|-------------|
+| **BIGST4CK** | WhatsApp | AI-powered WhatsApp bot with downloaders, group management, and server selling |
+| **BIGST4CK** | Telegram | Server selling bot with Pterodactyl integration |
+| **BigWeb** | Website | Brand presence and customer portal |
+| **BigPanel** | Pterodactyl | Server management and deployment |
+
+---
+
+## 🤖 BIGST4CK – WhatsApp Bot
+
+**BIGST4CK** is the flagship WhatsApp bot by bigmanjtech™. It combines AI chat, content downloaders, group management, and server selling into one powerful package.
+
+### Features
 - 🧠 **AI Chat** – ChatGPT, DeepSeek, Gemini, Claude, Meta AI
 - 🎵 **Downloaders** – YouTube, Spotify, Facebook, TikTok, Instagram
 - 👥 **Group Management** – Anti-bot, Warn, Kick, Promote, Demote, Mute
@@ -60,45 +80,6 @@ Our mission is to provide reliable, affordable, and automated server hosting sol
 - 📊 **User Status** – Level, coins, badges, uptime tracking
 - 🔧 **Custom Commands** – Add/edit commands on-the-fly with `.addcmd`
 - 🖥️ **Server Selling** – Create servers directly from WhatsApp
-
-### 🖥️ Telegram Bot
-- 📋 **Server Plans** – 1GB to 10GB + Unlimited
-- 💰 **Payment System** – Manual and Crypto payment support
-- 👤 **User Management** – Register, status, server list
-- 🔑 **Admin Panel** – Verify payments, ban/unban users, delete servers
-- 🚀 **Direct Commands** – `/1gb`, `/2gb`, ..., `/10gb`, `/unli`
-- 📊 **Server Status** – View your active servers and remaining days
-
-### 🌐 Website
-- 🎨 **Modern Design** – Dark theme with neon red/grey accents
-- ✨ **Animated Shapes** – Floating `+`, `−`, `×`, `÷`, `§`, `∆` with glow effects
-- 📱 **Responsive** – Works on all devices
-- 📄 **Multi-Page** – Home, About, Services, Team, GitHub, Contact
-- 🔗 **Interactive** – Modals for detailed descriptions
-
----
-
-## 💰 Server Selling Plans
-
-| Plan | RAM | CPU | Disk | Price (Monthly) |
-|------|-----|-----|------|-----------------|
-| **1 GB** | 1,024 MB | 50% | 5 GB | 1,500 TZS |
-| **2 GB** | 2,048 MB | 100% | 10 GB | 2,500 TZS |
-| **3 GB** | 3,072 MB | 150% | 15 GB | 3,500 TZS |
-| **4 GB** | 4,096 MB | 200% | 20 GB | 5,000 TZS |
-| **5 GB** | 5,120 MB | 250% | 25 GB | 6,500 TZS |
-| **6 GB** | 6,144 MB | 300% | 30 GB | 8,000 TZS |
-| **7 GB** | 7,168 MB | 350% | 35 GB | 9,500 TZS |
-| **8 GB** | 8,192 MB | 400% | 40 GB | 11,000 TZS |
-| **9 GB** | 9,216 MB | 450% | 45 GB | 13,000 TZS |
-| **10 GB** | 10,240 MB | 500% | 50 GB | 15,000 TZS |
-| **Unlimited** | ∞ | ∞ | ∞ | 25,000 TZS |
-
-> *All plans include full root access, 24/7 support, and automated deployment.*
-
----
-
-## 🤖 WhatsApp Bot
 
 ### Installation
 
@@ -116,3 +97,36 @@ nano config.json
 
 # 4. Start the bot
 npm start
+```
+## 📞 Contact
+
+| Name | Contact |
+|------|---------|
+| **bigtechs1** | [WhatsApp](https://wa.me/255777580820) · [GitHub](https://github.com/bigtechs1) |
+| **bigtechs2** | [WhatsApp](https://wa.me/255636756591) · [GitHub](https://github.com/bigtechs2) |
+| **bigtechs3** | [WhatsApp](https://wa.me/255705517165) · [GitHub](https://github.com/bigtechs3) |
+| **Join Group** | [WhatsApp Group](https://chat.whatsapp.com/EWlNm6bMYJCELwzvnmboyC) |
+| **Updates** | [WhatsApp Channel](https://whatsapp.com/channel/0029VbDJJY19WtC1T0Vgqp0v) |
+| **Email** | [bigmanj.tech@gmail.com](mailto:bigmanj.tech@gmail.com) |
+| **Website** | [bigweb.onrender.com](https://bigweb.onrender.com) |
+
+---
+---
+
+### 🏠 **BIGST4CK Family Group**
+
+> Welcome to the **BIGST4CK Family Group**! 🚀 This is the official WhatsApp group for users, developers, and enthusiasts of the BIGST4CK brand. Share your experiences, ask questions, report bugs, suggest new features, and connect with the team and other users.
+
+**[Join Group](https://chat.whatsapp.com/EWlNm6bMYJCELwzvnmboyC)**
+
+---
+
+### 📢 **BIGST4CK Updates Channel**
+
+> 📢 The official broadcast channel for **BIGST4CK**. Get the latest news, updates, new features, release notes, and important announcements. Stay informed and never miss an update!
+
+**[Join WhatsApp Channel](https://whatsapp.com/channel/0029VbDJJY19WtC1T0Vgqp0v)**
+
+---
+
+**Built with ♥︎ by bigmanjtech™**
