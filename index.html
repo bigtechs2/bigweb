@@ -10,7 +10,7 @@
 <body>
 
     <!-- ─── SHAPES CONTAINER ─── -->
-    <div class="shapes-container">
+    <div class="shapes-container" id="shapesContainer">
         <div class="shape">+</div>
         <div class="shape">−</div>
         <div class="shape">×</div>
@@ -37,7 +37,6 @@
         <div class="container">
             <div class="logo">BIGST4CK</div>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#team">Team</a></li>
@@ -49,150 +48,152 @@
         </div>
     </nav>
 
-    <!-- ─── HOME ─── -->
-    <section id="home" class="section home">
+    <!-- ─── HERO SECTION (Get Started Button) ─── -->
+    <section id="home" class="section hero">
         <div class="container">
-            <div class="home-content">
-                <h1 class="home-title">BIGST4CK</h1>
-                <p class="home-subtitle">Built with <span class="heart">♥︎</span> by <span class="highlight">bigmanjtech™</span></p>
-                <p class="home-tagline">Your Tech Hub – AI Bots · Server Hosting · Automation</p>
-                <div class="home-buttons">
-                    <a href="#contact" class="btn btn-primary">Get Started</a>
-                    <a href="#about" class="btn btn-secondary">Learn More</a>
-                </div>
+            <div class="hero-content">
+                <h1 class="hero-title">BIGST4CK</h1>
+                <p class="hero-subtitle">Built with <span class="heart">♥︎</span> by <span class="highlight">bigmanjtech™</span></p>
+                <p class="hero-tagline">Your Tech Hub – AI Bots · Server Hosting · Automation</p>
+                <button class="btn btn-primary btn-get-started" id="getStartedBtn">Get Started</button>
             </div>
         </div>
     </section>
 
-    <!-- ─── ABOUT ─── -->
-    <section id="about" class="section about">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">About</span>
-                <h2>bigmanjtech™</h2>
-                <p>bigmanjtech™ is a Tanzanian technology brand specializing in AI-powered WhatsApp bots, Telegram bots, automation tools, server hosting, and website development.</p>
-            </div>
-            <div class="about-grid">
-                <div class="about-card">
-                    <div class="about-icon">🎯</div>
-                    <h3>Our Mission</h3>
-                    <p>Making technology accessible, affordable, and useful for everyone.</p>
+    <!-- ─── MAIN CONTENT (Hidden until Get Started is clicked) ─── -->
+    <div id="mainContent" class="main-content hidden">
+
+        <!-- ─── ABOUT ─── -->
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">About</span>
+                    <h2>bigmanjtech™</h2>
+                    <p>bigmanjtech™ is a Tanzanian technology brand specializing in AI-powered WhatsApp bots, Telegram bots, automation tools, server hosting, and website development.</p>
                 </div>
-                <div class="about-card">
-                    <div class="about-icon">💎</div>
-                    <h3>Our Vision</h3>
-                    <p>To be Africa's leading tech brand, empowering communities through innovation.</p>
-                </div>
-                <div class="about-card">
-                    <div class="about-icon">🌟</div>
-                    <h3>Our Values</h3>
-                    <div class="value-tags">
-                        <span>Innovation</span>
-                        <span>Simplicity</span>
-                        <span>Reliability</span>
-                        <span>Community</span>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="about-icon">🎯</div>
+                        <h3>Our Mission</h3>
+                        <p>Making technology accessible, affordable, and useful for everyone.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-icon">💎</div>
+                        <h3>Our Vision</h3>
+                        <p>To be Africa's leading tech brand, empowering communities through innovation.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="about-icon">🌟</div>
+                        <h3>Our Values</h3>
+                        <div class="value-tags">
+                            <span>Innovation</span>
+                            <span>Simplicity</span>
+                            <span>Reliability</span>
+                            <span>Community</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- ─── SERVICES ─── -->
-    <section id="services" class="section services">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Services</span>
-                <h2>What We Do</h2>
+        <!-- ─── SERVICES ─── -->
+        <section id="services" class="section services">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Services</span>
+                    <h2>What We Do</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🤖</div>
+                        <h3>AI Bots</h3>
+                        <p>WhatsApp & Telegram bots with AI chat, downloaders, and group management.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🖥️</div>
+                        <h3>Server Hosting</h3>
+                        <p>Reliable hosting from 1GB to Unlimited with full root access and 24/7 support.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🌐</div>
+                        <h3>Website Development</h3>
+                        <p>Professional websites, landing pages, and custom web applications.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">⚡</div>
+                        <h3>Automation</h3>
+                        <p>Chatbots, workflow automation, and digital solutions for businesses.</p>
+                    </div>
+                </div>
             </div>
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">🤖</div>
-                    <h3>AI Bots</h3>
-                    <p>WhatsApp & Telegram bots with AI chat, downloaders, and group management.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🖥️</div>
-                    <h3>Server Hosting</h3>
-                    <p>Reliable hosting from 1GB to Unlimited with full root access and 24/7 support.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🌐</div>
-                    <h3>Website Development</h3>
-                    <p>Professional websites, landing pages, and custom web applications.</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">⚡</div>
-                    <h3>Automation</h3>
-                    <p>Chatbots, workflow automation, and digital solutions for businesses.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- ─── TEAM ─── -->
-    <section id="team" class="section team">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Team</span>
-                <h2>Our Team</h2>
+        <!-- ─── TEAM ─── -->
+        <section id="team" class="section team">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Team</span>
+                    <h2>Our Team</h2>
+                </div>
+                <div class="team-grid">
+                    <div class="team-card">
+                        <div class="team-avatar">👨‍💻</div>
+                        <h3>bigtechs1</h3>
+                        <p class="team-role">Lead Developer</p>
+                        <p>Expert in WhatsApp bot development, Pterodactyl panel, and Node.js.</p>
+                        <a href="https://wa.me/255777580820" class="btn btn-small">📞 Contact</a>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-avatar">👨‍💻</div>
+                        <h3>bigtechs2</h3>
+                        <p class="team-role">Developer</p>
+                        <p>Telegram bot development, AI integration, and server management.</p>
+                        <a href="https://wa.me/255636756591" class="btn btn-small">📞 Contact</a>
+                    </div>
+                    <div class="team-card">
+                        <div class="team-avatar">🚀</div>
+                        <h3>bigtechs3</h3>
+                        <p class="team-role">Upcoming Tech</p>
+                        <p>New talent joining the team, bringing fresh ideas and innovation.</p>
+                        <a href="https://wa.me/255705517165" class="btn btn-small">📞 Contact</a>
+                    </div>
+                </div>
             </div>
-            <div class="team-grid">
-                <div class="team-card">
-                    <div class="team-avatar">👨‍💻</div>
-                    <h3>bigtechs1</h3>
-                    <p class="team-role">Lead Developer</p>
-                    <p>Expert in WhatsApp bot development, Pterodactyl panel, and Node.js.</p>
-                    <a href="https://wa.me/255777580820" class="btn btn-small">📞 Contact</a>
-                </div>
-                <div class="team-card">
-                    <div class="team-avatar">👨‍💻</div>
-                    <h3>bigtechs2</h3>
-                    <p class="team-role">Developer</p>
-                    <p>Telegram bot development, AI integration, and server management.</p>
-                    <a href="https://wa.me/255636756591" class="btn btn-small">📞 Contact</a>
-                </div>
-                <div class="team-card">
-                    <div class="team-avatar">🚀</div>
-                    <h3>bigtechs3</h3>
-                    <p class="team-role">Upcoming Tech</p>
-                    <p>New talent joining the team, bringing fresh ideas and innovation.</p>
-                    <a href="https://wa.me/255705517165" class="btn btn-small">📞 Contact</a>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- ─── CONTACT ─── -->
-    <section id="contact" class="section contact">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Connect</span>
-                <h2>Get In Touch</h2>
+        <!-- ─── CONTACT (4 Equal Squares) ─── -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Connect</span>
+                    <h2>Get In Touch</h2>
+                </div>
+                <div class="contact-grid">
+                    <a href="https://wa.me/255636756591" class="contact-card">
+                        <div class="contact-icon">📞</div>
+                        <h3>WhatsApp</h3>
+                        <p>+255 636 756 591</p>
+                    </a>
+                    <a href="mailto:bigmanj.tech@gmail.com" class="contact-card">
+                        <div class="contact-icon">📧</div>
+                        <h3>Email</h3>
+                        <p>bigmanj.tech@gmail.com</p>
+                    </a>
+                    <a href="https://chat.whatsapp.com/EWlNm6bMYJCELwzvnmboyC" class="contact-card">
+                        <div class="contact-icon">👥</div>
+                        <h3>Join Group</h3>
+                        <p>BIGST4CK Family</p>
+                    </a>
+                    <a href="https://whatsapp.com/channel/0029VbDJJY19WtC1T0Vgqp0v" class="contact-card">
+                        <div class="contact-icon">📢</div>
+                        <h3>Join Channel</h3>
+                        <p>BIGST4CK Updates</p>
+                    </a>
+                </div>
             </div>
-            <div class="contact-grid">
-                <a href="https://wa.me/255636756591" class="contact-card">
-                    <div class="contact-icon">📞</div>
-                    <h3>WhatsApp</h3>
-                    <p>+255 636 756 591</p>
-                </a>
-                <a href="mailto:bigmanj.tech@gmail.com" class="contact-card">
-                    <div class="contact-icon">📧</div>
-                    <h3>Email</h3>
-                    <p>bigmanj.tech@gmail.com</p>
-                </a>
-                <a href="https://chat.whatsapp.com/EWlNm6bMYJCELwzvnmboyC" class="contact-card">
-                    <div class="contact-icon">👥</div>
-                    <h3>WhatsApp Group</h3>
-                    <p>Join BIGST4CK Family</p>
-                </a>
-                <a href="https://whatsapp.com/channel/0029VbDJJY19WtC1T0Vgqp0v" class="contact-card">
-                    <div class="contact-icon">📢</div>
-                    <h3>WhatsApp Channel</h3>
-                    <p>BIGST4CK Updates</p>
-                </a>
-            </div>
-        </div>
-    </section>
+        </section>
+
+    </div>
 
     <!-- ─── FOOTER ─── -->
     <footer>
@@ -204,6 +205,23 @@
 
     <!-- ─── JAVASCRIPT ─── -->
     <script>
+        // ─── Get Started Button ───
+        const getStartedBtn = document.getElementById('getStartedBtn');
+        const mainContent = document.getElementById('mainContent');
+
+        getStartedBtn.addEventListener('click', () => {
+            mainContent.classList.remove('hidden');
+            mainContent.classList.add('visible');
+            // Smooth scroll to about section
+            setTimeout(() => {
+                document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+            }, 300);
+            // Hide the button after click (optional)
+            getStartedBtn.textContent = '🚀 Welcome!';
+            getStartedBtn.style.opacity = '0.6';
+            getStartedBtn.style.cursor = 'default';
+        });
+
         // ─── Hamburger menu ───
         const hamburger = document.getElementById('hamburger');
         const navLinks = document.querySelector('.nav-links');
@@ -221,7 +239,7 @@
             }
         });
 
-        // ─── Smooth scroll ───
+        // ─── Smooth scroll for nav links ───
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
@@ -232,14 +250,15 @@
             });
         });
 
-        // ─── Floating shapes with mouse interaction ───
-        document.querySelectorAll('.shape').forEach(shape => {
-            const speed = 0.5 + Math.random() * 1.5;
-            const direction = Math.random() > 0.5 ? 1 : -1;
+        // ─── Floating shapes with neon red/grey glow ───
+        const shapes = document.querySelectorAll('.shape');
+        shapes.forEach((shape, index) => {
+            const speed = 0.3 + Math.random() * 0.8;
+            const angle = Math.random() * 2 * Math.PI;
             let x = Math.random() * window.innerWidth;
             let y = Math.random() * window.innerHeight;
-            let vx = direction * speed;
-            let vy = (Math.random() - 0.5) * speed;
+            let vx = Math.cos(angle) * speed;
+            let vy = Math.sin(angle) * speed;
 
             function moveShape() {
                 x += vx;
@@ -253,13 +272,15 @@
             moveShape();
         });
 
-        // ─── Shape follows mouse (optional) ───
+        // ─── Shape follows mouse (subtle parallax) ───
         document.addEventListener('mousemove', (e) => {
             const shapes = document.querySelectorAll('.shape');
             shapes.forEach((shape, i) => {
-                const delay = i * 20;
+                const delay = i * 15;
                 setTimeout(() => {
-                    shape.style.transform = `translate(${(e.clientX - window.innerWidth/2) * 0.02}px, ${(e.clientY - window.innerHeight/2) * 0.02}px)`;
+                    const x = (e.clientX - window.innerWidth/2) * 0.015;
+                    const y = (e.clientY - window.innerHeight/2) * 0.015;
+                    shape.style.transform = `translate(${x}px, ${y}px)`;
                 }, delay);
             });
         });
