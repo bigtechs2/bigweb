@@ -9,7 +9,7 @@ live on https://bigweb.onrender.com
 ![Version](https://img.shields.io/badge/version-1.0.0-grey)
 ![Node.js](https://img.shields.io/badge/Node.js-18+-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
-[![Website](https://img.shields.io/badge/Website-Live-blue)](https://bigst4ck-website.onrender.com)
+[![Website](https://img.shields.io/badge/Website-Live-blue)](https://bigweb.onrender.com)
 [![WhatsApp Group](https://img.shields.io/badge/WhatsApp-Group-25D366)](https://chat.whatsapp.com/EWlNm6bMYJCELwzvnmboyC)
 [![YouTube](https://img.shields.io/badge/YouTube-Subscribe-red)](https://youtube.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Repos-181717)](https://github.com/bigtechs1)
@@ -20,7 +20,7 @@ live on https://bigweb.onrender.com
 
 ## 📌 Table of Contents
 
-- [About BIGST4CK](#about-bigst4ck)
+- [About bigmanntech™](#about-bigst4ck)
 - [Features](#features)
 - [Server Selling Plans](#server-selling-plans)
 - [WhatsApp Bot](#whatsapp-bot)
@@ -39,7 +39,7 @@ live on https://bigweb.onrender.com
 
 ## 🎯 About BIGST4CK
 
-**BIGST4CK** is a complete tech ecosystem built by **bigmanjtech™**. It combines:
+**bigmanjtech™** is a complete tech team built by **bigtrchs1**. It combines:
 
 - 🤖 **WhatsApp Bot** – AI chat, downloaders, group management, and server selling
 - 🖥️ **Telegram Bot** – Server hosting and automation
