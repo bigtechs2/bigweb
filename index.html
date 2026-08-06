@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bigmanjtech™ infoweb</title>
+    <title>bigweb – by bigmanjtech™</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <!-- ─── SHAPES CONTAINER ─── -->
-    <div class="shapes-container">
+    <div class="shapes-container" id="shapesContainer">
         <div class="shape">+</div>
         <div class="shape">−</div>
         <div class="shape">×</div>
@@ -35,11 +35,10 @@
     <!-- ─── NAVBAR ─── -->
     <nav class="navbar" id="navbar">
         <div class="container">
-            <div class="logo">bigmanjtech™ infoweb</div>
+            <div class="logo">bigwebinfo</div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
-                <li><a href="#repos">GitHub</a></li>
                 <li><a href="#team">Team</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -49,42 +48,19 @@
         </div>
     </nav>
 
-    <!-- ─── HERO SECTION ─── -->
+    <!-- ─── HERO SECTION (Get Started Button) ─── -->
     <section id="home" class="section hero">
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">bigmanjtech™ info web</h1>
-                <p class="hero-subtitle">Built by <span class="heart">bigmanjtech™</span> with <span class="highlight">♥︎</span></p>
-                <p class="hero-tagline">your tech hub – AI Bots · Server Hosting · Automation</p>
+                <h1 class="hero-title">bigwebinfo</h1>
+                <p class="hero-subtitle">Built by <span class="heart">bigmanjtech™</span> with ♥︎ <span class="highlight">bigmanjtech™</span></p>
+                <p class="hero-tagline">Your Tech Hub – AI Bots · Server Hosting · Automation</p>
                 <button class="btn btn-primary btn-get-started" id="getStartedBtn">Get Started</button>
             </div>
         </div>
     </section>
 
-    <!-- ─── GET STARTED MODAL ─── -->
-    <div id="getStartedModal" class="modal-overlay">
-        <div class="modal-content">
-            <button class="modal-close" id="closeGetStarted">&times;</button>
-            <h2>Welcome to bigmanjtech™ information website</h2>
-            <p><strong>bigmanjtech™</strong> is a Tanzanian technology brand specializing in AI-powered WhatsApp bots, Telegram bots, automation tools, server hosting, and website development.</p>
-            <h3>What We Offer</h3>
-            <ul>
-                <li><strong>AI Bots:</strong> WhatsApp & Telegram bots with AI chat, downloaders, and group management.</li>
-                <li><strong>Server Hosting:</strong> Reliable hosting from 1GB to Unlimited with full root access and 24/7 support.</li>
-                <li><strong>Website Development:</strong> Professional websites, landing pages, and custom web applications.</li>
-                <li><strong>Automation:</strong> Chatbots, workflow automation, and digital solutions for businesses.</li>
-            </ul>
-            <h3>Our Mission</h3>
-            <p>Making technology accessible, affordable, and useful for everyone.</p>
-            <h3>Our Team</h3>
-            <p><strong>bigtechs1</strong> – Lead Developer<br>
-            <strong>bigtechs2</strong> – Developer<br>
-            <strong>bigtechs3</strong> – Upcoming Tech</p>
-            <a href="#contact" class="btn btn-primary" style="margin-top:16px;">Contact Us</a>
-        </div>
-    </div>
-
-    <!-- ─── MAIN CONTENT ─── -->
+    <!-- ─── MAIN CONTENT (Hidden until Get Started is clicked) ─── -->
     <div id="mainContent" class="main-content hidden">
 
         <!-- ─── ABOUT ─── -->
@@ -132,58 +108,21 @@
                         <div class="service-icon">🤖</div>
                         <h3>AI Bots</h3>
                         <p>WhatsApp & Telegram bots with AI chat, downloaders, and group management.</p>
-                        <button class="btn btn-small btn-learn-more" data-service="AI Bots">Learn More</button>
                     </div>
                     <div class="service-card">
                         <div class="service-icon">🖥️</div>
                         <h3>Server Hosting</h3>
                         <p>Reliable hosting from 1GB to Unlimited with full root access and 24/7 support.</p>
-                        <button class="btn btn-small btn-learn-more" data-service="Server Hosting">Learn More</button>
                     </div>
                     <div class="service-card">
                         <div class="service-icon">🌐</div>
                         <h3>Website Development</h3>
                         <p>Professional websites, landing pages, and custom web applications.</p>
-                        <button class="btn btn-small btn-learn-more" data-service="Website Development">Learn More</button>
                     </div>
                     <div class="service-card">
                         <div class="service-icon">⚡</div>
                         <h3>Automation</h3>
                         <p>Chatbots, workflow automation, and digital solutions for businesses.</p>
-                        <button class="btn btn-small btn-learn-more" data-service="Automation">Learn More</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ─── SERVICE DETAIL MODAL ─── -->
-        <div id="serviceModal" class="modal-overlay">
-            <div class="modal-content">
-                <button class="modal-close" id="closeServiceModal">&times;</button>
-                <h2 id="serviceModalTitle">Service Details</h2>
-                <p id="serviceModalDescription">Full description goes here.</p>
-            </div>
-        </div>
-
-        <!-- ─── GITHUB REPOS ─── -->
-        <section id="repos" class="section repos">
-            <div class="container">
-                <div class="section-header">
-                    <span class="section-tag">GitHub</span>
-                    <h2>Our Repositories</h2>
-                </div>
-                <div class="repos-grid">
-                    <div class="repo-card">
-                        <div class="repo-icon">📁</div>
-                        <h3>bigtechs1</h3>
-                        <p>WhatsApp Bot – BIGST4CK</p>
-                        <a href="https://github.com/bigtechs1" target="_blank" class="btn btn-small">View Repo</a>
-                    </div>
-                    <div class="repo-card">
-                        <div class="repo-icon">📁</div>
-                        <h3>bigtechs2</h3>
-                        <p>Telegram Bot – Server Selling</p>
-                        <a href="https://github.com/bigtechs2" target="_blank" class="btn btn-small">View Repo</a>
                     </div>
                 </div>
             </div>
@@ -259,68 +198,28 @@
     <!-- ─── FOOTER ─── -->
     <footer>
         <div class="container">
-            <p>© 2026 <span class="footer-logo">bigmanjtech™ infoweb</span> by <span class="highlight">bigmanjtech™ with</span> <span class="heart">♥︎</span></p>
-            <p class="footer-tagline">Built by bigmanjtech™ with ♥︎</p>
+            <p>© 2026 <span class="footer-logo">bigmanjtech™ web information</span> by <span class="highlight">bigmanjtech™ with</span> <span class="heart">♥︎</span></p>
+            <p class="footer-tagline">Built by ♥︎</p>
         </div>
     </footer>
 
     <!-- ─── JAVASCRIPT ─── -->
     <script>
-        // ─── Get Started Modal ───
+        // ─── Get Started Button ───
         const getStartedBtn = document.getElementById('getStartedBtn');
-        const getStartedModal = document.getElementById('getStartedModal');
-        const closeGetStarted = document.getElementById('closeGetStarted');
+        const mainContent = document.getElementById('mainContent');
 
         getStartedBtn.addEventListener('click', () => {
-            getStartedModal.classList.add('active');
-            document.body.style.overflow = 'hidden';
-        });
-
-        closeGetStarted.addEventListener('click', () => {
-            getStartedModal.classList.remove('active');
-            document.body.style.overflow = 'auto';
-        });
-
-        getStartedModal.addEventListener('click', (e) => {
-            if (e.target === getStartedModal) {
-                getStartedModal.classList.remove('active');
-                document.body.style.overflow = 'auto';
-            }
-        });
-
-        // ─── Service Detail Modal ───
-        const serviceModal = document.getElementById('serviceModal');
-        const closeServiceModal = document.getElementById('closeServiceModal');
-        const serviceModalTitle = document.getElementById('serviceModalTitle');
-        const serviceModalDescription = document.getElementById('serviceModalDescription');
-
-        const serviceDetails = {
-            'AI Bots': 'We build powerful AI-powered bots for WhatsApp and Telegram. Features include AI chat (ChatGPT, DeepSeek, Gemini, Claude), content downloaders (YouTube, Spotify, Facebook), group management, anti-spam, and automation tools. Perfect for businesses and individuals.',
-            'Server Hosting': 'We offer reliable server hosting solutions with full root access. Plans range from 1GB to Unlimited, with options for CPU, RAM, and disk space. All plans include 24/7 support, Pterodactyl panel management, and automated deployment.',
-            'Website Development': 'We create professional websites, landing pages, and custom web applications. Our services include responsive design, SEO optimization, e-commerce solutions, and full-stack development using modern technologies.',
-            'Automation': 'We provide automation solutions including chatbots, workflow automation, and digital transformation services. Automate your business processes, customer support, and internal operations with our custom solutions.'
-        };
-
-        document.querySelectorAll('.btn-learn-more').forEach(btn => {
-            btn.addEventListener('click', () => {
-                const service = btn.getAttribute('data-service');
-                serviceModalTitle.textContent = service;
-                serviceModalDescription.textContent = serviceDetails[service] || 'Full description coming soon.';
-                serviceModal.classList.add('active');
-                document.body.style.overflow = 'hidden';
-            });
-        });
-
-        closeServiceModal.addEventListener('click', () => {
-            serviceModal.classList.remove('active');
-            document.body.style.overflow = 'auto';
-        });
-
-        serviceModal.addEventListener('click', (e) => {
-            if (e.target === serviceModal) {
-                serviceModal.classList.remove('active');
-                document.body.style.overflow = 'auto';
-            }
+            mainContent.classList.remove('hidden');
+            mainContent.classList.add('visible');
+            // Smooth scroll to about section
+            setTimeout(() => {
+                document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+            }, 300);
+            // Hide the button after click (optional)
+            getStartedBtn.textContent = '🚀 Welcome!';
+            getStartedBtn.style.opacity = '0.6';
+            getStartedBtn.style.cursor = 'default';
         });
 
         // ─── Hamburger menu ───
@@ -340,7 +239,7 @@
             }
         });
 
-        // ─── Smooth scroll ───
+        // ─── Smooth scroll for nav links ───
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
@@ -348,18 +247,18 @@
                 if (target) {
                     target.scrollIntoView({ behavior: 'smooth' });
                 }
-                navLinks.classList.remove('active');
             });
         });
 
-        // ─── Floating shapes ───
+        // ─── Floating shapes with neon red/grey glow ───
         const shapes = document.querySelectorAll('.shape');
         shapes.forEach((shape, index) => {
             const speed = 0.3 + Math.random() * 0.8;
+            const angle = Math.random() * 2 * Math.PI;
             let x = Math.random() * window.innerWidth;
             let y = Math.random() * window.innerHeight;
-            let vx = (Math.random() - 0.5) * speed;
-            let vy = (Math.random() - 0.5) * speed;
+            let vx = Math.cos(angle) * speed;
+            let vy = Math.sin(angle) * speed;
 
             function moveShape() {
                 x += vx;
@@ -373,14 +272,16 @@
             moveShape();
         });
 
-        // ─── Shape follows mouse ───
+        // ─── Shape follows mouse (subtle parallax) ───
         document.addEventListener('mousemove', (e) => {
-            document.querySelectorAll('.shape').forEach((shape, i) => {
+            const shapes = document.querySelectorAll('.shape');
+            shapes.forEach((shape, i) => {
+                const delay = i * 15;
                 setTimeout(() => {
                     const x = (e.clientX - window.innerWidth/2) * 0.015;
                     const y = (e.clientY - window.innerHeight/2) * 0.015;
                     shape.style.transform = `translate(${x}px, ${y}px)`;
-                }, i * 15);
+                }, delay);
             });
         });
     </script>
