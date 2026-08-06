@@ -62,9 +62,9 @@ To be Africa's leading tech brand, empowering communities through innovation.
 | Product | Platform | Description |
 |---------|----------|-------------|
 | **BIGST4CK** | WhatsApp | AI-powered WhatsApp bot with downloaders, group management, and server selling |
-| **bigpannnel** | Telegram | Server selling bot with Pterodactyl integration |
+| **bigpannel** | Telegram | Server selling bot with Pterodactyl integration |
 | **BigWeb** | Website | Brand presence and customer portal |
-| **BigPanel** | Pterodactyl | Server management and deployment |
+| **bigpannel** | Pterodactyl | Server management and deployment |
 
 ---
 
